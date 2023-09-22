@@ -1,0 +1,8 @@
+TODO: 
+
+Correct capitalization of "Region" on line 387
+Print figures to result folder
+Add spaces before/after operators on lines 119-121
+Add some extra spacing to align code elements
+Add identity line to scatterplots
+

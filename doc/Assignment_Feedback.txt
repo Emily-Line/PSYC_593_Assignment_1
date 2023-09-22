@@ -1,0 +1,15 @@
+Feedback: 
+
+Very clear comments and answers. 
+Nice visualization and the new codes tend to follow the tidyverse style. 
+In line 387, the added column was named "Region", which has capitalization but honestly, 
+didn't find anything else that was not in line. Definitely much clearer than my rendition of the code. 
+It would have been nice to maybe printed the figures into the result folder, since you already had it?
+
+The operators on lines 119-121 need spaces before and after. 
+You may also want to add some extra spaces to align code elements; 
+for example, on lines 157-159 and similar blocks of code. 
+For the figures you may want to add the identity line to make it easier to 
+identify that the scatterplots show larger values for one of the countries. 
+Excellent work. All the modifications you included really help to get a more 
+complete answer and easier to interpret results. Also, really good comments in your code.
