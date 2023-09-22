@@ -390,7 +390,8 @@ Viewing the table above, we can see that Kenya has a higher CDR than Sweden
 and the "world average." This is true regardless of time period. We can also 
 see that CDR values have all decreased in the more recent time period
 compared to the older time period. Sweden has better CDRs than Kenya and the 
-world average, regardless of time period. 
+world average in 1950-1955, but has a slightly higher CDR than the world average
+in 2005-2010. 
 
 ## Question 5
 
