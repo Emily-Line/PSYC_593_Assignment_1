@@ -119,9 +119,9 @@ person years for men and the person years for women. This is stored in a new
 variable called `py_total`. 
 ```{r person-total}
 # Create new variable py_total = total person years for each data set
-world_data$py_total<-world_data$py.men+world_data$py.women
-kenya_data$py_total<-kenya_data$py.men+kenya_data$py.women
-sweden_data$py_total<-sweden_data$py.men+sweden_data$py.women
+world_data$py_total <- world_data$py.men + world_data$py.women
+kenya_data$py_total <- kenya_data$py.men + kenya_data$py.women
+sweden_data$py_total <- sweden_data$py.men + sweden_data$py.women
 ```
 
 
