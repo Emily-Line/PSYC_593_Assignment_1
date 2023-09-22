@@ -234,6 +234,9 @@ plot(kenya_asfr_df$asfr,
      xlim = c(0, 0.4),
      ylim = c(0, 0.4))
 
+# adding identity line to plot
+abline(a=0, b=1)
+
 # title for plot
 title("ASFR for Sweden and Kenya")
 
@@ -451,6 +454,9 @@ plot(kenya_asdr$asdr,
      ylab = "Sweden ASDR",
      xlim = c(0, 0.014),
      ylim = c(0, 0.014))
+
+# adding identity line to plot
+abline(a=0, b=1)
 
 # title for plot
 title("ASDR for Sweden and Kenya")
