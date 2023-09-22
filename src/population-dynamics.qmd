@@ -1,9 +1,9 @@
 ---
 title: "Understanding World Population Dynamics"
 subtitle: "Assignment 1 - PSYC593"
-quarto:
-  outputs:
-    figPath: ../results
+knitr:
+  opts_chunk:
+    fig.path: ../results/figures/
 format:
   html: default
 date: today
