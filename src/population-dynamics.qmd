@@ -119,8 +119,8 @@ person years for men and the person years for women. This is stored in a new
 variable called `py_total`. 
 ```{r person-total}
 # Create new variable py_total = total person years for each data set
-world_data$py_total <- world_data$py.men + world_data$py.women
-kenya_data$py_total <- kenya_data$py.men + kenya_data$py.women
+world_data$py_total  <- world_data$py.men + world_data$py.women
+kenya_data$py_total  <- kenya_data$py.men + kenya_data$py.women
 sweden_data$py_total <- sweden_data$py.men + sweden_data$py.women
 ```
 
@@ -157,8 +157,8 @@ We calculate the CBR using the new function we just created, and we obtain two
 values for each dataset.
 ```{r cbr-computing, results = FALSE}
 # Compute the CBR for each data set
-(world_cbr <- compute_cbr(world_data))
-(kenya_cbr <- compute_cbr(kenya_data))
+(world_cbr  <- compute_cbr(world_data))
+(kenya_cbr  <- compute_cbr(kenya_data))
 (sweden_cbr <- compute_cbr(sweden_data))
 ```
 
@@ -502,8 +502,8 @@ We use the new `compute_pop_prop` function to calculate the population proportio
 per time period for each region. 
 ```{r region-pop-prop}
 # Compute population proportion for each data set
-world_pop <- compute_pop_prop(world_data)
-kenya_pop <- compute_pop_prop(kenya_data)
+world_pop  <- compute_pop_prop(world_data)
+kenya_pop  <- compute_pop_prop(kenya_data)
 sweden_pop <- compute_pop_prop(sweden_data)
 ```
 
